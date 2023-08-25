@@ -9,16 +9,51 @@
         <!--Title-->
         <title>About · Brady Zhou</title>
         <!--Link Elements-->
-        <link rel="stylesheet" src="/css/about.css">
+        <link rel="stylesheet" href="/style.css">
+        <link rel="icon" type="image/x-icon" href="/images/icon.png">
     </head>
 
     <body>
         <!--Header at top of page-->
-        <header class="top">
+        <header class="header">
             <div class="hero">
                 <img src="/images/icon.png" alt="Website Logo" id="logo_icon">
-                <h3></h3>
+                <h2 id="name">Brady Zhou</h3>
+                <nav class="nav">
+                    <h4 class="option">
+                        <a href="/pages/about.html" class="nav_link">About</a>
+                    </h4>
+                    <h4 class="option">Projects</h4>
+                    <h4 class="option">
+                        <a href="/Resume.pdf" class="nav_link" target="_blank">Resume</a>
+                    </h4>
+                </nav>
             </div>
         </header>
+        <main class="self_introduction">
+            <div class="text_container">
+                <p class="text intro">
+                    I am currently a third year computer science student at
+                        <a href="https://www.upenn.edu" class="text_link" target="_blank">UPenn</a>. 
+                    I have gained a lot of experience in Java through coursework, and I am currently learning Python, HTML, and CSS on my own.
+                </p>
+                <p class="text intro">
+                    In my free time, I enjoy playing volleyball and basketball, weight lifting, and playing video games such as Valorant.
+                </p>
+                <p class="text intro">
+                    If you would ever like to chat or play some games, feel free to email me at 
+                    <a href="mailto:bradyz@seas.upenn.edu" class="text_link" target="_blank">bradyz@seas.upenn.edu </a>!
+                </p>
+            </div>
+            <img src="/images/bradyzhou.jpg" alt="Brady Zhou" id="self_image" class="intro">
+        </main>
+        <footer>
+            <a href="https://github.com/bradyz314" target="_blank">
+                <img src="/images/github_icon.png" class="social_icon">
+            </a>
+            <a href="https://www.linkedin.com/in/brady-zhou/" target="_blank">
+                <img src="/images/linkedin_icon.png" class="social_icon">
+            </a>
+        </footer>
     </body>
 </html>
