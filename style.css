@@ -1,0 +1,98 @@
+/*Elements*/
+body {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p {
+    color: royalblue;
+}
+
+header {
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+/*Classes*/
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+}
+
+.option {
+    color: royalblue;
+    font-size: 2.5em;
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+.nav_link:visited, .nav_link:link {
+    color: royalblue
+}
+
+.nav_link:hover, .nav_link:active {
+    color: blue
+}
+
+.self_introduction {
+    display: grid;
+    box-sizing: auto;
+    margin:auto;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    width: 80%;
+}
+
+.intro {
+    text-align: justify;
+}
+
+.text {
+    font-size: 2em;
+}
+
+.text_link:visited, .text_link:link {
+    color: lightcoral
+}
+
+.text_link:hover, .text_link:active {
+    color: rgb(238, 81, 24)
+}
+
+.social_icon {
+    padding:20px;
+}
+
+/*ID*/
+#logo_icon {
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-right: 40px;
+}
+
+#self_image {
+    border-radius: 50%;
+    max-width: 70%;
+    max-height: 70%;
+}
+
+#name {
+    color:royalblue;
+    font-size: 3.75em;
+    margin-right: auto;
+}
