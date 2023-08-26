@@ -31,3 +31,37 @@ header {
 a {
     text-decoration-line: none;
 }
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+}
+
+.option {
+    color: royalblue;
+    font-size: 2.5em;
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+.current {
+    color: red;
+    font-size: 2.5em;
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+.nav_link:visited, .nav_link:link {
+    color: royalblue
+}
+
+.nav_link:hover, .nav_link:active {
+    color: blue
+}
