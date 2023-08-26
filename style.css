@@ -1,4 +1,3 @@
-/*Elements*/
 body {
     background-color: lightblue;
     display: flex;
@@ -33,7 +32,6 @@ a {
     text-decoration-line: none;
 }
 
-/*Classes*/
 .hero {
     display: flex;
     flex-direction: row;
@@ -114,7 +112,6 @@ a {
     max-height: 100%
 }
 
-/*ID*/
 #logo_icon {
     border-radius: 50%;
     margin-left: 25px;
