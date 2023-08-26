@@ -65,3 +65,68 @@ a {
 .nav_link:hover, .nav_link:active {
     color: blue
 }
+
+.self_introduction {
+    display: grid;
+    box-sizing: auto;
+    margin:auto;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    width: 80%;
+}
+
+.intro {
+    text-align: justify;
+}
+
+.text {
+    font-size: 2em;
+}
+
+.text_link:visited, .text_link:link {
+    color: lightcoral
+}
+
+.text_link:hover, .text_link:active {
+    color: rgb(238, 81, 24)
+}
+
+.social_icon {
+    padding:20px;
+}
+
+.projects {
+    width: 80%;
+    margin: auto;
+    
+}
+
+.project_name {
+    color:royalblue;
+    font-size: 3em;
+}
+
+.project_image {
+    max-width: 100%;
+    max-height: 100%
+}
+
+/*ID*/
+#logo_icon {
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-right: 40px;
+}
+
+#self_image {
+    border-radius: 50%;
+    max-width: 70%;
+    max-height: 70%;
+}
+
+#name {
+    color:royalblue;
+    font-size: 3.75em;
+    margin-right: auto;
+}
