@@ -16,3 +16,18 @@ body {
         opacity: 1;
      }
 }
+
+p {
+    color: royalblue;
+}
+
+header {
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+a {
+    text-decoration-line: none;
+}
