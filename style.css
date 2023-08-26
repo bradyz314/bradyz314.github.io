@@ -52,6 +52,14 @@ a {
     margin-right: 20px
 }
 
+.current {
+    color: red;
+    font-size: 2.5em;
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px
+}
+
 .nav_link:visited, .nav_link:link {
     color: royalblue
 }
