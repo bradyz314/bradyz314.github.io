@@ -4,6 +4,18 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 
 p {
@@ -76,6 +88,22 @@ a {
 
 .social_icon {
     padding:20px;
+}
+
+.projects {
+    width: 80%;
+    margin: auto;
+    
+}
+
+.project_name {
+    color:royalblue;
+    font-size: 3em;
+}
+
+.project_image {
+    max-width: 100%;
+    max-height: 100%
 }
 
 /*ID*/
